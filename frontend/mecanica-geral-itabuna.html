@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="public/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://unpkg.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;0,400i;1,400;1,400i&family=Inter:wght@300;400;500;600;700&family=Anton&display=swap" rel="stylesheet">
+
+  <title>Mecânica Geral em Itabuna | Diagnóstico Avançado - Central Autocar</title>
+  <meta name="description" content="A sua oficina mecânica de confiança em Itabuna. Realizamos diagnóstico computadorizado, revisão de freios, suspensão, injeção eletrônica e motor. Agende já!">
+  <meta name="keywords" content="oficina mecanica itabuna, mecanica geral, suspensao itabuna, freios, injecao eletronica, auto center itabuna, revisao de carro, central autocar">
+  <meta name="author" content="Central Autocar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://centralautocar.com.br/mecanica-geral-itabuna.html">
+
+  <!-- JSON-LD Structured Data for Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Mecânica Geral",
+    "provider": {
+      "@type": "AutoRepair",
+      "name": "Central Autocar",
+      "image": "https://centralautocar.com.br/public/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Manoel Souza Chaves, 2528 - São Caetano",
+        "addressLocality": "Itabuna",
+        "addressRegion": "BA",
+        "postalCode": "45608-401",
+        "addressCountry": "BR"
+      },
+      "telephone": "+5573988879617"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Itabuna"
+    },
+    "description": "Serviços de mecânica geral, incluindo suspensão, freios, motor, injeção eletrônica e diagnósticos computadorizados."
+  }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { yellow: '#e58903', dark: '#121212', gray: '#F4F4F5' },
+            emerald: { 500: '#10b981' }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            anton: ["'Anton'", 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-black text-zinc-900 relative font-sans flex flex-col min-h-screen selection:bg-brand-yellow selection:text-black overflow-x-hidden">
+
+  <!-- Header Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-black shadow-lg">
+    <nav class="flex items-center justify-between w-full px-4 md:px-12 py-3 md:py-4 gap-2">
+      <div class="flex items-center gap-2 group cursor-pointer shrink-0">
+        <a href="index.html" class="flex items-center gap-2">
+          <img src="public/logo.png" alt="Logo Central Autocar" width="100" height="40" class="h-10 md:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105">
+          <span class="text-white font-extrabold text-sm md:text-base tracking-tight">
+            Central <span class="text-zinc-400 font-semibold">Autocar</span>
+          </span>
+        </a>
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        <a href="index.html#inicio" class="text-zinc-400 hover:text-white transition-colors text-xs font-black uppercase tracking-wider px-3 py-1.5 rounded-full hover:bg-white/10">Início</a>
+        <a href="index.html#servicos" class="text-zinc-950 transition-colors text-xs font-black uppercase tracking-wider px-4 py-1.5 rounded-full bg-brand-yellow">Serviços</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 w-full pt-28 pb-16 bg-white rounded-b-[3rem] shadow-2xl relative z-10 flex flex-col items-center">
+    <div class="max-w-4xl w-full px-6">
+      
+      <div class="text-center mb-10">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-600 text-[10px] font-black uppercase tracking-widest mb-4">
+          Oficina Especializada
+        </div>
+        <h1 class="text-4xl md:text-6xl text-zinc-950 tracking-tight leading-none mb-6" style="font-family: 'Anton', sans-serif; text-transform: uppercase;">
+          Mecânica Geral em <span class="text-rose-500">Itabuna</span>
+        </h1>
+        <p class="text-zinc-600 md:text-lg leading-relaxed max-w-2xl mx-auto font-medium">
+          Do simples check-up até o reparo mais complexo no motor e transmissão. Nossa equipe de especialistas resolve qualquer problema com o seu veículo de forma ágil e transparente.
+        </p>
+      </div>
+
+      <!-- Service Details Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-zinc-50 border border-zinc-200 rounded-3xl p-8 shadow-sm">
+          <i data-lucide="wrench" class="w-8 h-8 text-brand-yellow mb-4"></i>
+          <h3 class="text-xl font-bold text-zinc-900 mb-2">Diagnóstico Preciso</h3>
+          <p class="text-sm text-zinc-600 leading-relaxed">
+            Utilizamos scanners automotivos de última geração para detectar exatamente o problema, seja na injeção eletrônica, câmbio, módulos ou sensores. Sem "achismos", focamos na causa real do problema.
+          </p>
+        </div>
+        <div class="bg-zinc-50 border border-zinc-200 rounded-3xl p-8 shadow-sm">
+          <i data-lucide="shield-check" class="w-8 h-8 text-brand-yellow mb-4"></i>
+          <h3 class="text-xl font-bold text-zinc-900 mb-2">Suspensão, Freios e Motor</h3>
+          <p class="text-sm text-zinc-600 leading-relaxed">
+            Trabalhamos com substituição de correias, pastilhas de freio, discos, amortecedores e reparos complexos em motores. Tudo com garantia total e peças de reposição que atendem as especificações de fábrica.
+          </p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="bg-zinc-950 rounded-3xl p-10 text-center relative overflow-hidden shadow-2xl border border-zinc-800">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-rose-500/10 rounded-full blur-[80px] pointer-events-none"></div>
+        <div class="relative z-10">
+          <h2 class="text-2xl md:text-4xl text-white font-bold mb-4" style="font-family: 'Anton', sans-serif; text-transform: uppercase;">
+            Agende Sua Revisão
+          </h2>
+          <p class="text-zinc-400 text-sm mb-8">Solucione rapidamente aquele barulho chato ou aviso no painel.</p>
+          <a href="https://wa.me/5573981536025?text=Olá! Gostaria de agendar um serviço de Mecânica Geral." target="_blank" class="inline-flex items-center justify-center gap-2 bg-brand-yellow text-zinc-950 px-8 py-4 rounded-xl font-black uppercase tracking-widest text-xs hover:scale-105 active:scale-95 transition-all shadow-xl">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            Agendar Atendimento
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full bg-black py-8 text-center text-zinc-500 text-xs">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col items-center gap-2">
+      <p>Av. Manoel Souza Chaves, 2528 - São Caetano, Itabuna - BA, 45608-401</p>
+      <p>© 2026 Central Autocar. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
