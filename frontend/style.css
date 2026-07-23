@@ -1,4 +1,4 @@
-/* Instrument Serif, Inter and Anton are loaded via <link> in index.html's
+﻿/* Instrument Serif, Inter and Anton are loaded via <link> in index.html's
    <head> (combined into one request, discovered before this file even
    downloads) instead of @import here, which would otherwise block on a
    serial fetch after this stylesheet loads. */
@@ -230,9 +230,9 @@ body {
 }
 
 /* =========================================================
-   FILIAIS 3D CAROUSEL STYLES
+   PARCEIROS 3D CAROUSEL STYLES
    ========================================================= */
-#filiaisContent {
+#parceirosContent {
   font-family: 'Inter', sans-serif;
 }
 

@@ -1,4 +1,4 @@
-// firebase-config.js — Central Autocar Firebase Integration
+﻿// firebase-config.js — Central Autocar Firebase Integration
 // Loaded as <script type="module"> in index.html
 
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js';
@@ -78,9 +78,9 @@ window.CA_Analytics = {
     });
   },
 
-  // Filial visualizada
-  trackFilialView(filialName) {
-    logEvent(analytics, 'filial_view', { filial_name: filialName });
+  // Parceiro visualizada
+  trackParceiroView(parceiroName) {
+    logEvent(analytics, 'parceiro_view', { parceiro_name: parceiroName });
   },
 
   // Busca rápida (quick tags)
